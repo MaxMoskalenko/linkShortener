@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shortener</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Titillium+Web" rel="stylesheet">
+</head>
+<body onload="addLinks()">
+  <div class="row center" style="background-color: #2ecc71">
+    <p class="hed">Link Shortener</p>
+  </div>
+  <div class="row center" action="index.html" method="post">
+    <input type="text" id="long" placeholder="Paste long link">
+    <p>--> https://shpp.me/go/</p>
+    <input type="text" id="short" placeholder="Write short link">
+    <button onclick="send()">send</button>
+  </div>
+  <div id="links" class="linkLable">
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

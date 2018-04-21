@@ -1,0 +1,61 @@
+body{
+  align-items: center;
+  background-color: #ecf0f1;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  border-bottom: #27ae60 5px solid;
+  padding-bottom: 2px;
+  background-color: white;
+}
+input{
+  border:;
+  height: 20px;
+  width: 200px;
+}
+#long{
+  width: 350px;
+}
+button{
+  width: 90px;
+  height: 30px;
+  border: #2ecc71 2px solid;
+  border-radius: 4px;
+  background: white;
+  margin-left: 5px;
+  color: #2ecc71;
+}
+
+.linkLable{
+  display: block;
+  width: 100%;
+  height: 1000px;
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #2ecc71;
+  flex-direction: column;
+  padding-top: 5px;
+}
+.linkBox{
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px #2ecc71 solid;
+  margin: 5px 0;
+}
+.butLink{
+  /* background: none; */
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  margin: 9px 7px;
+}
+.hed{
+  font-size: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+}
